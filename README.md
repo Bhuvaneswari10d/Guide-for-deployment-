@@ -1,4 +1,4 @@
-##### **Step by step guide to deploy angular app in azure blob storage**
+### **Step by step guide to deploy angular app in azure blob storage**
 **Azure Blob storage**
 - Click **create resource** -> Storage account click **create**.
 - Enter storage account name.
@@ -33,49 +33,8 @@ ng build
 ![unavailable](https://lh3.googleusercontent.com/f37xaSPsnAtx8kgdSFh5DO9uizi1hQf6k76XE1gr6HterwQ1bOV9hP8ZvsqCu4dl31EAASQdBxFz6m8oqADYMlIo9KNu0e3oVXdw4NuHaj5XaIAym2lSNnMSzOv-EGQPyjjJb6cX1rO-Pq0h5dslcDUABkwM-rL9yxDGMyi_jE0IQguIBzt_rO7yKEL9z8mOG0f8MYRD01UaCEHh4BtpkOvzE3fJDEWbTSJDwnwpImjXMeHubLEdmi7GNFYWcuLW_rl7NuFrLYILZOgTV4hBKFFIkcPh0rH56yfrpTI3JXLLym-aFEtFtA2Ec1ks5wMXA9pdCqDXbEe5Xk92wFL4pQcza8A2PmD_aC8nQe0v-W7N6UDJxJW0-nkLqlsPpWYmzBpF3OsXwANJ1Sx-1xBVCqUuSqa8SkySYEgHFwysRZal1n6-7Y-jt1IWT1mZM36iojgtK2eU5NROBmkmj-vKewaXtDZx3G6tsFB8UVjfrPomd9VgW6vFJ3qPN2HMisH-WT4sV1xcelYdy5sBsaoavcg3jtKsp-Nm0Wh7yao7GiuhaX5ZKdHA8Z1Pzp2Vva349jdZC4SFrPi9UfU5cDFXCj_7w7W1u2f8e30EKMVuws9FwJo81dKvvu1fVFpaeWo_DLuKhkDR8D6GuBp0vFZxHuhjJTJRC7r64ed9MMWEIv6MX1n-2RQUZFDdDZK5YjjaC3F3YSI0EMXxz8ZMmXrOwQ=w1423-h800-no?authuser=0)
 - Right-click in **dist** -> click **Deploy to static website via azure storage account**. After the deployment was finished.
 ![unavailable](https://lh3.googleusercontent.com/1KPi8ORDsqv80tvh7qy_zEuFt8zbkEXcM_vyI1eozI49mqsjQzKmP3gIk2DDu_8qVBWNwZVWGnpzRBDpIP3fAs5tfEawpAvdm4kFxybAx2NA8N2ZeVgfzZ705fN5AWWgsgdE9GNUczqcv21rk0h-4sEwQi59aj7bXAG0ikHFQRoMVCWTPVbdt-Q7pebLI0HA8pRn8WNwCF51Y63-p3OHVIi-vLX6qb4LGEq2ZBij9ByJIAfoK-I4kpmL5IkTkiiaQDcAfl-HcfCw47QgI1bksn4aX8S_cYBrJYpAsXNmVT4Bl6jCzZVNxAQp_KcB0i7otz8V9mc0e6md6_593wcnrcE08oGf31LV87eIc-kZpOieF-JG1iIoPmDcdMlqPjNqRq1JhFvHxUemVb6tzFuLWtm_ScJL05II9laoqs7RXNCjWICIMcujJ48taVPTX9H-fRVaeXFqMSS2DMOt-ZJKrT4hrh2RXvfb2XCowIBPXK_NyHR_RkgypqqgOxgfBRmTsr1TlIvIkunvl-AYHEOJltoEREgKwlIC4KlwpYVpKVNVWu4C0YfPYMf1BudOVkFt6F4tVqVOQmNaAbDMG5lfZEiX-PAorcQILnNwMe2X0EwI9yX7SSc9ja8ylcLwG-xJAIiqYD8cpt2C5yn9mzRrcOwHn0_rBs0FaZ9gVE87q8mh0Wv841sQyXmpjNPcyGU62K0JOP0OpvXaCfldkk8gHA=w1423-h800-no?authuser=0)
-- Go to the **azure account/sandbox** -> From **Home** -> Click **10ddata** -> Click **$web**
+- Go to the **azure account/sandbox** -> From **Home** -> Click **10ddata** -> Click `$web`. To check the location of `index.html` file in our sandbox.
 - Now we successfully deployed the angular app in azure blob storage.
-
-
-
-
-lob storage**
-- Click **create resource** -> Storage account click **create**.
-- Enter storage account name.
-![unavailable](https://lh3.googleusercontent.com/FFneYbiRiI9incxiGfW0OcZu5tXspF8Q3vcea80hZLBg3veDC04xZ3c8SBUkYFNS3FBUKylLlXsx8znhW3pHf3tMzN72hLnKmccUjtd_jFKRbrRpWLD74sIKkLooR-gwJBWEIkMxMyzNn5QSgfqIaTiWopIXXFjdXjal1JoKtDXI9eYW9Z2HJvvEvsznpYhFW-G-mxFPv_Ym9ATgWFgy8QtVwDX2Ix_le7GWStt9ELb7TYjSXVNLedsu8Ac-rkNZNjfFBnCx2FZzL9w69-m_k8atCC5Saf9ryKpj62s3Rzs7nhkSrNaXIo7H5MJwh7OadCqEzNkGnxyhRxhZmcMiVq12NE8Dr5hqmwz_DYLAzQo7ZOpjQYDBZZufzwzt2OSkGkoNUO733zq-BlnrrJqQvXzOJpcLnSDT4U2ZsLvpM9-nUFyyUgvMLq1mz1J2-DZYhX0sKDRMlZ69ray1vrYJubVpxwzwn3vIxcAIeoOBUq5qmXwcNaR9_6qFR9ZZ2G-cxII0ATEe-LYDjuA_qclVJ6Ht5gIHmyCXn42jN-9oW09tLyRjnZNRx464psmUfISofjbcLW_hvm4g79Tw-IV_83R56Nz_K7K2v5YRNCN_W2-a1HX5cd8D43A09pvX3i99c5eG0K4vmPTB9adApU-UhrhQYm1Ga9tzzGkPyl8sbHUrxKaUTOa-O_7FmzTfxB6rg4Igg7mLdZmxXeHY-KM9HA=w1314-h739-no?authuser=0)
-![unavailable](https://lh3.googleusercontent.com/oF6qmavWFhM4A0-snpkbnwyFQQdXttP8qeL46cNREeuNiEC0LSalusBOa3olyuHIoH_ygzmGZkq8ugJ5cU04ci5a7Wj_QooI2a-DUJEODHc7scGMoeaYvomMFKkwiMhv3ysiHB048QA0BsQduA6r2V3RtQMF34UopYfTQi4h_PBV0kKZQrZ1pz8uTlC9Op92frodBDp5lss2zN1wBgLom0g2lu2dIHrOvrVLpEVS7uwRgq4QaTGpKTUNWGZJkklC0D_vJZ-x1KO74GEtaFLdpKtN3lO8k4wLolcSNR3Y1Aphg1r5PO5NO3zCQye2NxxMD1WzHGTQUwJSqRxYkrN_2WVvIL5GfmcYWfekZxOb6kQEMRVDCbFcDWYKVw9R3hKawxThQXCoq1TewT2JYo13BXNAKvJeVdbPoRp8dxwxKiBl3E9TFCk-fuOBR-JxRNAOJ4kbewa9pCrzgVvzUFVxPUpzsy1JGYRlp0vbBrHof3kcow3ykqJCsuoIQ6BJdOKkRZ4H3x8pMIhaBWIp2DYlZT-kDqsk9koJGnp9oz9k2qxX5oGdNkes6wPJvYbHjPSRVz-6mxP9_KsCiOa34K2fTUlwQ877pA0cv0d_gLTNng1nlk5RuNgLeOZPsjSmZPSh8xWwel6Dmm1p06x3uegDIOIVADOGgygls78GGe5B-GMC-cd5aIXnjhKHs7xXrDNxTRyUh4OZU6FuGdp-u0SprA=w1314-h739-no?authuser=0)
-- Click **Review+create** after the validation is passed click **Create**. Now the Azure blob storage has been created using the sandbox.
-- **Go to resource** to view the recently created resource.
-![unavailable](https://lh3.googleusercontent.com/4J6vJBKXHXGnh3yUE60AmrW-wOIuLINsiR9O405jX2tTnBOiYlYYcDQ3cazf6o772H6lGk7VG7wvoMDm7C-WJ-LMl3djmzv2DCMzEu1Ys63tgDbzUYElBURFk38cwAcBq9tkCWNDv_LnGE3cXIkjxh0_Sj9e2CcMjW7R6D8_4IIuKOpRBC6ancRLuyqFxBTRRadyl0ueVZ88bPNJ7xj3Dg8TpXA1ktvrO3ZcrFtB1OEwQbLfa5FSfh8qnyhoYWNLox-B01Ozc5m5fY_2OiP12GDTMwgRohz_ctHEbSsRkXjL_XAKQp8nlZIdzGSWjUHY3Yx4GyITHTDoHgtzXgvCU23PfqGSYsSimh7Gj7IJ5X7eaJM6mClBVYUVc7bdlJ4lzRIzWvjaBdyvMSvdOzQ_hrh7EOGX6m6HXNfPdf5Uh6oOS88ar3cNpaPDUzhY1CT83W19wFZpDWEqDGeolN0Gu4hw4I0AT3UbxZf3BvG-qp3dHpQj4q04y5uY09r_tHlwxVU9qwOeGszBaAAwVP-UxXcvAhTo_ThMLeJq3A3BtRoY99EdnbuuHIA2qyuYRKp7iGI5PAIrscIY0sdPHSc1Tz5srseVxVowjo1CNdW-8QH057P40KpmJ7XFv-qDUG2x08rJ_4vk6-U2fH8DmQEcjRuKK12LPhm29VbTf0zgVk2Tr6HhhYl2YElB0Ir1IlZ_l_Ga2zlOWrXEfrZRuwbNzw=w1423-h800-no?authuser=0)
-- In the left panel, under **Data management**, click **Static website** a page appears.
-![unavailable](https://lh3.googleusercontent.com/hJX4Pz_tGJ0bFQU4iK0Y0pjUWXmL1AoYneyMU6dyj_B-yObsoQFQKDIwFlwJflQaOkMB11XdXghRz9AmqOcLlHmBaUxYf6CUH0GLWbwT9wzhFCGWoupOjj_-hMxC_-zjoUUJnwJRNDztwdEp5yngQL2mt3XJoYDMnUiZvHNcO7C8NWukANA-w4OuV7k6OUw93Xr7soEeNIkXVBgYqQQw137icaMZYKgyFqdFht_rbGZ5ndVMRXXGxFuhLUz5iFhIj53N2bzoLgjiyY8YkpDpjsFSJ5i4lGQi6Dv-0bWgKE6TRk4y3svWPsLhHJThdbUnmkVpA_9yS0L7v5xWlcgeFvilODXs-2Fi7yf65jHl5KoWptXV9HwjUhH1rc9oPCv-n5h9QS1ni9spebLxP5IyRBCiWmRyqSj3j7lW_u_92GxDQp_Fy2vOuNbDLSas1zsgoR5CUOnEahdqI84SZzgWE0FpgWkGMNNDc5ovsjGwmX6rHliLgPtn06JJuSt8rJqD_-QIjeQ01mpk_HTGPfLzfyVAZ38FnaGroBjC97-INNRQKNdfOLw4hhe0RU99lx-MDYhsn0vD8Woxz_RbxSaIRJpcHRflTUZAiQeGat36nJdlehYkoJcho5Z4CWEMBEwjzdtHZ5g3ds6sFY-VFeZyS5It3KgF8c_ArY1FV3mNcLJVV0e4QnKJbgwMDtfCEqBbRRGXWtbDMn9a9a_p2gnTwg=w1423-h800-no?authuser=0)
-- **Enable** static website -> Enter **index.html** for the index document name -> Enter **404.html** for the error document path -> Click **save**.
-**Angular application**
-- To get the angular application in your pc **go to terminal**.
-``` Terminal
-ng --version
-ng new application
-cd application
-ls
-**angular.json  karma.conf.js  node_modules  package.json  package-lock.json  README.md  src  tsconfig.app.json  tsconfig.json  tsconfig.spec.json (list in application folder)**
-```
-**To create a dist folder**
-```Terminal
-ng add @angular-eslint/schematics@next
-ng build
-```
-**Deploy the angular app in azure blob storage using VScode**
-- Open **VScode** -> In the left panel click **Extensions** -> Install **Azure storage extension**.
-![unavailable](https://lh3.googleusercontent.com/qcgUy0M3TWHCBY3u7tgZpepYEEAtfA6dg4x-vF0Agmd3-9lXTt1ok_cP8gTIBSW5mywqhSN8Oovopt1Fjbe2rkBwq6VT2EuRKL81Bgl2t09wDNYZUVadfD6RacS9QAbwcPR5G-dXOCVmETBx7cS0VE95olBBQgRy9OZhFRDuY2TUs08wpg-i63NoindN9zkKkgt4tR1AsGZRJdwHPpqB-lw2KYOipXuFKiCPwVENlCSX596gGMmWqhXoLSK4d9kJZFKLqUhfiA-M60X8O2sxmLv9We7z3Kbog_Zfsr-m9R1mqomgFR6Qjv__2eEifYOqPJplneUnfDxPtFZqFhPzaRJuGPNJ0VJitT-tNd2Yx7W5KIzGcoFOnGGSGjiV4aMUxhFeukAmsqsHXTYY5YXv3pJ2M5E-e4Fc7vyxewsCbZiFnmKVYszg_SCnrP5g8SC-Gm-xbCWVH_qyAqCC2In2DNk2Yd5bL5FuLd4wwo3JcnOx1jMiDkxv29eeS9kjHVkU826ECe8oGexpcsxe6WfYQwCFMc6D45c4gXYy--NdkTCtuZIodaLAPBoX7vcnx0JtmXjAznZ1bdGURSm1aVnOlf0qyQVXAPRgwv6cEYuhaQlM_jTl9Wfev5PTJJFbpjEP7gjp8H09LJyNlWpr8D9FgsXXbI45ln1aBMTNf9dITBxAYXfdB4A1z2RyOuUg8SS51TmbpbLofWKWm7uRYat1MA=w1423-h800-no?authuser=0)
-- Sign in to your azure account in VScode.
-![unavailable](https://lh3.googleusercontent.com/vQmPIVuAkYE3KKthgwIMKddZSw7C0CXxNaYWaN294Ehpu8Sa7xldVnelI8N4XYjWdC5_l4LeTLFOULAGdbqsf9jXYiSdQGBY1PIYlztPee8zuIWYXtYcejc9uDg97wrxQabxIEzcL0qnu18MLw8sWloMS2KCp6eVY7lnQX4h0NbU2PEio43Ee3DVXlUFYTXnO-QZRSZ_RFuQ85zsPLbUt75rM6-MnexPtveFqGqrK-YjBaA7k5HZ0MT14GmUE24SguTgDXC6C8c32pZdF1VEFKHQfrseaFsTu-vw9cxS7Tclkf7oKm1jP2FoWecBTmVA5Kv83TqaVtRD4GVC83RY7S17EkU_NfhOqCQjOZutxSwDzhyq0OT8wqrP3ZhCSsIIFPrC_9Pf2J-SPK9CIhIBxG5n2XKEpbrYM7uxoeYVGJ6Mz5kVRq-wetufeI7Y7wmxYdX7LPl_DQnXyCH92KLAQYyfzKVVjaY1yOp7qCAwP-uL971ig3c2V1QjMb0-WKnkXCOPyMHGpK_qxW0HBLdzDgttaxRyGd22_TM6oelFVbhqmrxCgvSQ4N3rPiZTyQElo-22dUuj8ougJuUVTCEklcjjAdyveYQLpdc6ukziP7lvLUweoEWeQbZGJhmBgqVGIUi9zfhuzTtAaUZO6DET0kVH1ahjBQK70pIJS6gWuVHjbmWaBYGEamI22YbBSI8EZHXsZsavaBzpake78-gzIA=w1423-h800-no?authuser=0)
-- In the left panel go to **Explorer** a box appears on your screen -> click **application** a drop-down box appears on your screen.
-![unavailable](https://lh3.googleusercontent.com/f37xaSPsnAtx8kgdSFh5DO9uizi1hQf6k76XE1gr6HterwQ1bOV9hP8ZvsqCu4dl31EAASQdBxFz6m8oqADYMlIo9KNu0e3oVXdw4NuHaj5XaIAym2lSNnMSzOv-EGQPyjjJb6cX1rO-Pq0h5dslcDUABkwM-rL9yxDGMyi_jE0IQguIBzt_rO7yKEL9z8mOG0f8MYRD01UaCEHh4BtpkOvzE3fJDEWbTSJDwnwpImjXMeHubLEdmi7GNFYWcuLW_rl7NuFrLYILZOgTV4hBKFFIkcPh0rH56yfrpTI3JXLLym-aFEtFtA2Ec1ks5wMXA9pdCqDXbEe5Xk92wFL4pQcza8A2PmD_aC8nQe0v-W7N6UDJxJW0-nkLqlsPpWYmzBpF3OsXwANJ1Sx-1xBVCqUuSqa8SkySYEgHFwysRZal1n6-7Y-jt1IWT1mZM36iojgtK2eU5NROBmkmj-vKewaXtDZx3G6tsFB8UVjfrPomd9VgW6vFJ3qPN2HMisH-WT4sV1xcelYdy5sBsaoavcg3jtKsp-Nm0Wh7yao7GiuhaX5ZKdHA8Z1Pzp2Vva349jdZC4SFrPi9UfU5cDFXCj_7w7W1u2f8e30EKMVuws9FwJo81dKvvu1fVFpaeWo_DLuKhkDR8D6GuBp0vFZxHuhjJTJRC7r64ed9MMWEIv6MX1n-2RQUZFDdDZK5YjjaC3F3YSI0EMXxz8ZMmXrOwQ=w1423-h800-no?authuser=0)
-- Right-click in **dist** -> click **Deploy to static website via azure storage account**. After the deployment was finished.
-![unavailable](https://lh3.googleusercontent.com/1KPi8ORDsqv80tvh7qy_zEuFt8zbkEXcM_vyI1eozI49mqsjQzKmP3gIk2DDu_8qVBWNwZVWGnpzRBDpIP3fAs5tfEawpAvdm4kFxybAx2NA8N2ZeVgfzZ705fN5AWWgsgdE9GNUczqcv21rk0h-4sEwQi59aj7bXAG0ikHFQRoMVCWTPVbdt-Q7pebLI0HA8pRn8WNwCF51Y63-p3OHVIi-vLX6qb4LGEq2ZBij9ByJIAfoK-I4kpmL5IkTkiiaQDcAfl-HcfCw47QgI1bksn4aX8S_cYBrJYpAsXNmVT4Bl6jCzZVNxAQp_KcB0i7otz8V9mc0e6md6_593wcnrcE08oGf31LV87eIc-kZpOieF-JG1iIoPmDcdMlqPjNqRq1JhFvHxUemVb6tzFuLWtm_ScJL05II9laoqs7RXNCjWICIMcujJ48taVPTX9H-fRVaeXFqMSS2DMOt-ZJKrT4hrh2RXvfb2XCowIBPXK_NyHR_RkgypqqgOxgfBRmTsr1TlIvIkunvl-AYHEOJltoEREgKwlIC4KlwpYVpKVNVWu4C0YfPYMf1BudOVkFt6F4tVqVOQmNaAbDMG5lfZEiX-PAorcQILnNwMe2X0EwI9yX7SSc9ja8ylcLwG-xJAIiqYD8cpt2C5yn9mzRrcOwHn0_rBs0FaZ9gVE87q8mh0Wv841sQyXmpjNPcyGU62K0JOP0OpvXaCfldkk8gHA=w1423-h800-no?authuser=0)
-- Go to the **azure account/sandbox** -> From **Home** -> Click **10ddata** -> Click `$web`. To check the location of `index.html` file in your sandbox.
-- Now we successfully deployed the angular app in azure blob storage.
-
 
 
 
